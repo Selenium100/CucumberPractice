@@ -1,0 +1,26 @@
+Steps def will be generating cucumber exp by default.
+But you can use regular expression also in step def file
+You can mix both regular expression and cucumber exp in step defination file.
+But you can't mix both expressions in a step defination method.
+
+
+
+Regular Expression:
+Check Quantifires in java
+
+
+
+Cucumber Tags:
+Tags I can user Feature level and scenario level also.
+
+I can give in runner class, @tags=@<tagename>
+
+From maven also we can override the tags and give our preferred tag:
+mvn test -Dcucumber.filter.tags="@<tagname>"
+
+
+Background in Featurefile:
+Sometimes there are some repetative steps are there in each Scenarios in feature file. 
+These steps are just increase the lines in feature file.
+So we can club those steps in a Background keyword.
+So before each and every scenario this background steps will execute.

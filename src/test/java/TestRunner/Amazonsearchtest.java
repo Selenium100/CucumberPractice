@@ -6,11 +6,10 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src\\test\\resources\\Search.feature"},
+@CucumberOptions(features= {"src\\test\\resources\\AmazonSearch.feature"},
 glue= {"StepDefination"},
-tags= "@Apple or @Nokia",
 plugin= {"pretty"}
 		)
-public class AmazonTest {
+public class Amazonsearchtest {
 
 }

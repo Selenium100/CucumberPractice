@@ -18,7 +18,21 @@
 #Sample Feature Definition Template
 Feature: Amazon Search
 
+
+@Apple
   Scenario: Search a Product
     Given I have search field on Amazon Page
     When I search a product with name "Apple MacBook Pro" and Price 1000
     Then Procuct with name "Apple MacBook Pro" should be displayed.
+    
+    @Samsung
+     Scenario: Search a Product
+    Given I have search field on Amazon Page
+    When I search a product with name "Galaxy A12" and Price 2000
+    Then Procuct with name "Galaxy A12" should be displayed.
+    
+    @Nokia
+     Scenario: Search a Product
+    Given I have search field on Amazon Page
+    When I search a product with name "Nokia N19" and Price 3000
+    Then Procuct with name "Nokia N19" should be displayed.
