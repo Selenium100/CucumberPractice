@@ -17,15 +17,15 @@ And user clicks on order link
 Then User checks the previous orders
 
 Scenario: Check the open oder details
-Then User is clicked on Previous order details
+Then User is clicked on open oder details
 And user clicks on order link
-Then User checks the previous orders
+Then User checks the open oder
 
 
 Scenario: Check the cancelled oder details
-Then User is clicked on Previous order details
-And user clicks on order link
-Then User checks the previous orders
+Then User is clicked on cancelled oder details
+And user clicks on cancelled oder link
+Then User checks the cancelled oder
 
 
 

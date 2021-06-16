@@ -11,6 +11,7 @@ public class AmazonSearchTest {
 	public void user_is_on_amazon_login_page() {
 	   
 		System.out.println("User is on Amazon Login Page");
+		
 
 	}
 
@@ -26,6 +27,7 @@ public class AmazonSearchTest {
 	public void user_is_entered_password_details() {
 	    
 		System.out.println("User is entered password details");
+		
 	}
 
 	@Then("User is clicked login Button")
@@ -56,6 +58,33 @@ public class AmazonSearchTest {
 	public void user_checks_the_previous_orders() {
 	    
 		System.out.println("User checks the previous orders");
+		int i=9/0;
+		System.out.println(i);
+	}
+	
+	@Then("User is clicked on open oder details")
+	public void user_is_clicked_on_open_oder_details() {
+	    System.out.println("User is clicked on open oder details");
+	}
+
+	@Then("User checks the open oder")
+	public void user_checks_the_open_oder() {
+	    System.out.println("User checks the open oder");
+	}
+
+	@Then("User is clicked on cancelled oder details")
+	public void user_is_clicked_on_cancelled_oder_details() {
+	    System.out.println("User is clicked on cancelled oder details");
+	}
+
+	@Then("user clicks on cancelled oder link")
+	public void user_clicks_on_cancelled_oder_link() {
+	   System.out.println("user clicks on cancelled oder link");
+	}
+
+	@Then("User checks the cancelled oder")
+	public void user_checks_the_cancelled_oder() {
+	    System.out.println("User checks the cancelled oder");
 	}
 
 

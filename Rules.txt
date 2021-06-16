@@ -1,3 +1,14 @@
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features= {"src\\test\\resources\\AmazonSearch.feature"},
+glue= {"StepDefination", "MyHooks"},
+plugin= {"pretty", "json:target/MyReport/report.json", "junit:target/MyReport/report.xml"},
+publish=true
+		)
+
+
+
+
 Steps def will be generating cucumber exp by default.
 But you can use regular expression also in step def file
 You can mix both regular expression and cucumber exp in step defination file.
@@ -24,3 +35,26 @@ Sometimes there are some repetative steps are there in each Scenarios in feature
 These steps are just increase the lines in feature file.
 So we can club those steps in a Background keyword.
 So before each and every scenario this background steps will execute.
+
+
+Cucumber Hooks:
+Its not a part of Feature file.
+Can be written in step defination class
+OR can be written in a seperate configuration class
+
+
+@Before - It will execute before each scenario
+@After - It will execute after each scenario
+
+
+@BeforeStep - It will execute before each steps in scenario
+@AfterSteps - It will execute after each steps in scenario.
+
+
+
+Cucumber Report:
+
+In plugin section of cucumberOptions use publish=true to publish a report. URL will come under the console output
+
+
+Data Table in Cucumber:
