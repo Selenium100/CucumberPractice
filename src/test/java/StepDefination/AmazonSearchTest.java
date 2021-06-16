@@ -6,10 +6,10 @@ import io.cucumber.java.en.When;
 
 public class AmazonSearchTest {
 	
-	@Given("User is on Amazon Login Page")//Nitya
-	public void user_is_on_amazon_login_page() {//Nitya
+	@Given("User is on Amazon Login Page")
+	public void user_is_on_amazon_login_page() {
 	   
-		System.out.println("User is on Amazon Login Page");//Nitya
+		System.out.println("User is on Amazon Login Page");
 	}
 
 	@When("User is entered user details")
