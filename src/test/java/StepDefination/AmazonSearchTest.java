@@ -16,7 +16,7 @@ public class AmazonSearchTest {
 	public void user_is_entered_user_details() {
 	    
 
-		System.out.println("User is entered user details");//Nitya is good boy
+		System.out.println("User is entered user details");
 
 	}
 
