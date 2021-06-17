@@ -58,3 +58,9 @@ In plugin section of cucumberOptions use publish=true to publish a report. URL w
 
 
 Data Table in Cucumber:
+
+
+
+
+Scenario Outline and Examples Keyword:
+
