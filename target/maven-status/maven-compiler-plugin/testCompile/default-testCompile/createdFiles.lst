@@ -1,2 +1,7 @@
 StepDefination\SearchSteps.class
+TestRunner\StudentReg.class
+MyHooks\AmazonHooks.class
+StepDefination\StudentRegTest.class
 TestRunner\AmazonTest.class
+StepDefination\AmazonSearchTest.class
+TestRunner\Amazonsearchtest.class
